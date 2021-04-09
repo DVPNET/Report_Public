@@ -9,7 +9,17 @@
 
 ## 简介
 
+### 使用指南
 
+具备 Java 运行环境(JDK1.8即可)
+
+打开 Godzilla-xx.jar，程序会在当前目录生成一个用于存储数据的 data.db 文件，点击管理标签生成所需的 WebShell，保存生成所用的密钥等信息，将 WebShell 放置到目标服务器，使用 Godzilla 添加连接即可使用
+
+### 工具特性
+
+1. 工具自身插件强大
+2. 流量加密
+3. 支持内存Shell
 
 ### Payload以及加密器支持
 
@@ -169,4 +179,3 @@ Base64 : Base64是将加密后的数据再进行Base64编码
      绕过 DisableFunctions
      ```
 
-     [![Stargazers over time](https://starchart.cc/BeichenDream/Godzilla.svg)](https://starchart.cc/BeichenDream/Godzilla)
